@@ -52,28 +52,5 @@ if (empty($path)) {
   </main>
   <script src="{{ @BASE }}/assets/js/jquery-3.5.1.slim.min.js"></script>
   <script src="{{ @BASE }}/assets/js/bootstrap.bundle.min.js"></script>
-  <script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyC1bRmaEDOHgdQSuAIjGNzcR7p6itcpBpc",
-    authDomain: "file-manager-aa51a.firebaseapp.com",
-    projectId: "file-manager-aa51a",
-    storageBucket: "file-manager-aa51a.appspot.com",
-    messagingSenderId: "734465717573",
-    appId: "1:734465717573:web:8529b13b096d8137c6ba2c",
-    measurementId: "G-5ZHKC66Z4L"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
 </body>
 </html>
